@@ -131,6 +131,7 @@ GEM
       rack-test (>= 0.5.3)
 
 PLATFORMS
+  ruby
   x86-mingw32
 
 DEPENDENCIES
