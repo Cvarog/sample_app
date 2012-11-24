@@ -1,14 +1,8 @@
 SampleApp::Application.routes.draw do
 
+  resources :users
   
-
-  # mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
-
-  # devise_for :users
-
-  
-
-  get "users/new"
+  # get "users/new"
 
   match '/signup',  :to => 'users#new'
 
